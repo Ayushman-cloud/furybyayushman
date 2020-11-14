@@ -1,6 +1,8 @@
 ## Welcome to Fury by Ayushman Sinha
 <html>
-  <body>
+  <body bgcolor="blue"> 
+    <a href="https://www.covid19india.org/">Live covid cases <a>
+      
 
  <form name="calculator">
             
