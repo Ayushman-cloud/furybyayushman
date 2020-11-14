@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+## Welcome to Fury by Ayushman Sinha
+<html>
+  <body>
 
-You can use the [editor on GitHub](https://github.com/Ayushman-cloud/furybyayushman.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+My calculator 
+# Program make a simple calculator
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# This function adds two numbers
+def add(x, y):
+    return x + y
 
-### Markdown
+# This function subtracts two numbers
+def subtract(x, y):
+    return x - y
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# This function multiplies two numbers
+def multiply(x, y):
+    return x * y
 
-```markdown
-Syntax highlighted code block
+# This function divides two numbers
+def divide(x, y):
+    return x / y
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
 
-1. Numbered
-2. List
+while True:
+    # Take input from the user
+    choice = input("Enter choice(1/2/3/4): ")
 
-**Bold** and _Italic_ and `Code` text
+    # Check if choice is one of the four options
+    if choice in ('1', '2', '3', '4'):
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
 
-[Link](url) and ![Image](src)
-```
+        if choice == '1':
+            print(num1, "+", num2, "=", add(num1, num2))
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        elif choice == '2':
+            print(num1, "-", num2, "=", subtract(num1, num2))
 
-### Jekyll Themes
+        elif choice == '3':
+            print(num1, "*", num2, "=", multiply(num1, num2))
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ayushman-cloud/furybyayushman.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+        elif choice == '4':
+            print(num1, "/", num2, "=", divide(num1, num2))
+        break
+    else:
+        print("Invalid Input")
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20%20gurugram&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies online free</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+        </body>
+        </html>
