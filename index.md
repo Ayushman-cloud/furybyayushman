@@ -1,6 +1,12 @@
 ## Welcome to Fury by Ayushman Sinha
 <html>
   <body>
+    <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
  
       
 
@@ -35,8 +41,7 @@
   
     
           </form>
-          <a href="https://www.covid19india.org/">Live covid cases</a>
-          <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+         
         <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20%20gurugram&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies online free</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
         </body>
         </html>
